@@ -21,6 +21,8 @@
 		B8F179DF197615DF00A236B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F179C1197615DF00A236B1 /* UIKit.framework */; };
 		B8F179E7197615DF00A236B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8F179E5197615DF00A236B1 /* InfoPlist.strings */; };
 		B8F179E9197615DF00A236B1 /* HaoTestPageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F179E8197615DF00A236B1 /* HaoTestPageViewControllerTests.m */; };
+		B8F179F41976169600A236B1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F179F31976169600A236B1 /* SecondViewController.m */; };
+		B8F179F7197616AA00A236B1 /* HaoPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F179F6197616AA00A236B1 /* HaoPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		B8F179E4197615DF00A236B1 /* HaoTestPageViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HaoTestPageViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		B8F179E6197615DF00A236B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B8F179E8197615DF00A236B1 /* HaoTestPageViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaoTestPageViewControllerTests.m; sourceTree = "<group>"; };
+		B8F179F21976169600A236B1 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B8F179F31976169600A236B1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B8F179F5197616AA00A236B1 /* HaoPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaoPageViewController.h; sourceTree = "<group>"; };
+		B8F179F6197616AA00A236B1 /* HaoPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HaoPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +121,12 @@
 				B8F179CC197615DF00A236B1 /* AppDelegate.h */,
 				B8F179CD197615DF00A236B1 /* AppDelegate.m */,
 				B8F179CF197615DF00A236B1 /* Main.storyboard */,
+				B8F179F5197616AA00A236B1 /* HaoPageViewController.h */,
+				B8F179F6197616AA00A236B1 /* HaoPageViewController.m */,
 				B8F179D2197615DF00A236B1 /* ViewController.h */,
 				B8F179D3197615DF00A236B1 /* ViewController.m */,
+				B8F179F21976169600A236B1 /* SecondViewController.h */,
+				B8F179F31976169600A236B1 /* SecondViewController.m */,
 				B8F179D5197615DF00A236B1 /* Images.xcassets */,
 				B8F179C4197615DF00A236B1 /* Supporting Files */,
 			);
@@ -249,6 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F179F41976169600A236B1 /* SecondViewController.m in Sources */,
+				B8F179F7197616AA00A236B1 /* HaoPageViewController.m in Sources */,
 				B8F179D4197615DF00A236B1 /* ViewController.m in Sources */,
 				B8F179CE197615DF00A236B1 /* AppDelegate.m in Sources */,
 				B8F179CA197615DF00A236B1 /* main.m in Sources */,
